@@ -36,3 +36,61 @@
     transform: rotate(360deg);
   }
 }
+/* styles for modals */
+.modal-overlay {
+  background: rgb(18, 156, 220);
+  margin: 20vh;
+  width:60%;
+  height:20rem;
+  display:flex;       
+  padding: 1rem;            
+}
+.modal-overlay1 {
+  background: rgb(18, 156, 220);
+  margin: 20vh;
+  width:60%;
+  height:20rem;     
+  padding: 1rem;            
+}
+.btn{
+  margin-left: 80vh;
+}
+.btn1{
+  margin-left: 105vh;
+}
+.form{
+  background:#b5b2b2;
+  margin:0 auto;
+  text-align:left;
+  width:30rem;
+  padding: 1rem;
+}
+.menu{
+  background-color: black;
+  color: white;
+  display: grid;
+  grid-template-columns: repeat(5,1fr);
+  padding: 1rem;
+}
+.entrada{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 5px;
+}
+.boton{
+  margin: 0 auto;
+  text-align: center;
+}
+.titulo{
+  text-align: center;
+  text-transform: uppercase;
+  padding: 1rem;
+}
+.img{
+  width: 100%;
+  height: auto;
+}
+a{
+  text-decoration: none;
+  color: white;
+}
